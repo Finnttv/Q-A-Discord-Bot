@@ -4,7 +4,7 @@ var generalChannel;
 client.on('ready', () =>{
     console.log("Connected as " +client.user.tag)
 
-    client.user.setActivity("Working in the Sac Group Chat!")
+    client.user.setActivity("Having Fun in Your Server!")
 
     client.guilds.cache.forEach((guild) => {
         console.log(guild.name);
