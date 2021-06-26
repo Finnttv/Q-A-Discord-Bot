@@ -18,6 +18,6 @@ client.on('ready', () =>{
     generalChannel.send("```Q&A Bot is now Online, Made By F_i_n_n___#0001 and 4K0Hz#8933```")
 });
 client.on('message', message => {
-    if (message.guild === null) { generalChannel.send("```" + message.author.tag + " Said: " + message.content + "```") ;}
+    if (message.guild === null) { generalChannel.send("```" + message.author.tag + " Asked: " + message.content + "```") ;}
 });
 client.login("XXXX")
